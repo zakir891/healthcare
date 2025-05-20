@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Monitoring System</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Add CSS later -->
+</head>
+<body>
+    <h1>Welcome to the Health Monitoring System</h1>
+    <p>Monitor and track your health effectively.</p>
+    <form id="healthForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <br>
+        <label for="healthMetric">Health Metric:</label>
+        <input type="text" id="healthMetric" name="healthMetric" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script> <!-- Add JavaScript later -->
+</body>
+</html>
+<form action="/submit" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <label for="metric">Health Metric:</label>
+    <input type="text" id="metric" name="metric" placeholder="Enter health metric" required><br><br>
+
+    <button type="submit">Submit</button>
+</form>
